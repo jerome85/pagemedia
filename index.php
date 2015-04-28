@@ -35,6 +35,15 @@
             et des professionnels de l’État québécois.</p>
           </div>
         </div>
+        <div class="row" id="suiveznous" style="margin-top: 150px;">
+          <div class="col-md-6"><b>SUIVEZ-NOUS</b></div>
+        </div>
+        <div class="row" id="suiveznous">
+          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/facebook.png"></div>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/twitter.png"></div>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/google.png"></div>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/youtube.png"></div>
+        </div>
       </div>
       <div class="col-md-8" style="background-color: #d7083b;"></div>
     </div>

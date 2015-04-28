@@ -21,3 +21,7 @@ body>.row>[class*="col-"] {
 p{
 	margin-top: 5px;
 }
+
+#suiveznous img{
+	width:150%;
+}
