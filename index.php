@@ -15,6 +15,16 @@
     <![endif]-->
   </head>
   <body>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="container">
+          <div class="row">
+            <div class=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5" style="background-color: #d7083b;"></div>
+    </div>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
