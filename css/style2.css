@@ -3,13 +3,21 @@ body {
 	width: 100%;
 }
 
-.row{
+body>.row{
 	display: table-row;
 	height: 100%;
 	
 }
 
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+body>.row>[class*="col-"] {
   display: table-cell;
   float: none;
+}
+
+.logo{
+	width: 100%;
+}
+
+p{
+	margin-top: 5px;
 }

@@ -16,14 +16,27 @@
   </head>
   <body>
     <div class="row">
-      <div class="col-md-7">
-        <div class="container">
-          <div class="row">
-            <div class=""></div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-10">
+            <img class="logo" src="img/logo-spgq.png"/>
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8" style="background-color:#d7083b; margin-top: 20px; margin-bottom:20px; height: 2px;"></div>
+            </div>
+            <p>Campagne publicitaire de valorisation du personnel professionnel du 
+            gouvernement du Québec qui se déroule tout au long du mois de mai 2015.</p>
+            <p>Le Syndicat de professionnels et professionnelles du gouvernement du Québec 
+            (<b>SPGQ</b>) a réalisé une série de trois vidéos mettant en valeur différentes 
+            catégories d’emplois du personnel professionnel de l’État, tant dans la 
+            fonction publique que dans les secteurs parapublics.</p>
+            <p>Réalisées sous forme d’entrevues et d’une durée variant de 1 à 2 minutes, ces capsules 
+            permettent au public d’en savoir plus sur le rôle et l'engagement des professionnelles 
+            et des professionnels de l’État québécois.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-5" style="background-color: #d7083b;"></div>
+      <div class="col-md-8" style="background-color: #d7083b;"></div>
     </div>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
