@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link href="css/style2.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,13 +46,13 @@
           <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/youtube.png"></div>
         </div>
       </div>
-      <div class="col-md-8" style="background-color: #d7083b;"></div>
-    </div>
-
-    <a href="#?w=0" rel="popup_name" class="poplight">En savoir plus</a>
-    <div id="popup_name" class="popup_block">
-      <h2>Developpez.com</h2>
-      <p>Soh Tanaka est traduit sur developpez.com.</p>
+      <div class="col-md-8" style="background-color: #d7083b;">
+        <ul>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=BgPv2fqDUuk">Yves Bédard</a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=-pzv4nxj2b0">Sonia Tremblay</a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=WNhec5-wpVU">Karine Gibson</a></li>
+        </ul>
+      </div>
     </div>
 
 
@@ -64,6 +65,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/script.js"></script>
 
   </body>
