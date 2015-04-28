@@ -23,7 +23,7 @@
             <img class="logo" src="img/logo-spgq.png"/>
             <div class="row">
               <div class="col-md-2"></div>
-              <div class="col-md-8" style="background-color:#d7083b; margin-top: 20px; margin-bottom:20px; height: 2px;"></div>
+              <div class="col-md-8" style="background-color:#d7083b; margin-top: 40px; margin-bottom:40px; height: 2px;"></div>
             </div>
             <p>Campagne publicitaire de valorisation du personnel professionnel du 
             gouvernement du Québec qui se déroule tout au long du mois de mai 2015.</p>
