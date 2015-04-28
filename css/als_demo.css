@@ -1,6 +1,6 @@
 #content {
 	position: relative;
-	margin: 50px auto;
+	margin: 0px 0;
 	width: 960px;
 }
 /********************************
@@ -15,7 +15,7 @@
 .als-viewport {
 	position: relative;
 	overflow: hidden;
-	margin: 0px auto;
+	margin: 0px 0px;
 }
 
 .als-wrapper {
@@ -43,7 +43,7 @@
  ***********************/
 
 #lista2 {
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 
 #lista2 .als-item {
@@ -62,17 +62,19 @@
 }
 
 #lista2 .als-prev, #lista2 .als-next {
-	left: 460px;
+	left: 15.5%;
 	width: 22px;
 	height: 15px;
+	z-index: 500;
 }
 
 #lista2 .als-prev {
-	top: -25px;
+	top: 28%;
 }
 
 #lista2 .als-next {
-	bottom: -20px;
+	bottom: 0px;
+	top: 70%;
 }
 
 #lista2 .als-item {

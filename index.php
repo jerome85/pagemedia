@@ -14,6 +14,28 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<!-- Scroller styles -->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/CSSreset.min.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/als_demo.css" />
+	
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.als-1.7.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() 
+		{
+			$("#lista2").als({
+				visible_items: 3,
+				scrolling_items: 1,
+				orientation: "vertical",
+				circular: "yes",
+				autoscroll: "no",
+				start_from: 0
+			});
+			
+		});
+	</script>
+		
   </head>
   <body>
     <div class="row">
@@ -47,17 +69,31 @@
         </div>
       </div>
       <div class="col-md-8" style="background-color: #d7083b;">
+		<section id="content">
+			<div id="lista2" class="als-container">
+				<span class="als-prev"><img src="img/thin_top_arrow_333.png" alt="prev" title="previous" /></span>
+				<div class="als-viewport">
+					<div class="als-wrapper">
+						<div class="als-item"><img src="img/temoin_preview_1.jpg" alt="calculator" title="calculator" /></div>
+						<div class="als-item"><img src="img/temoin_preview_2.jpg" alt="light bulb" title="light bulb" /></div>
+						<div class="als-item"><img src="img/temoin_preview_3.jpg" alt="card" title="card" /></div>
+						<div class="als-item"><img src="img/temoin_preview_1.jpg" alt="chess" title="chess" /></div>
+						<div class="als-item"><img src="img/temoin_preview_2.jpg" alt="alarm clock" title="alarm clock" /></div>
+						<div class="als-item"><img src="img/temoin_preview_3.jpg" alt="scissors" title="scissors" /></div>
+					</div>
+				</div>
+				<span class="als-next"><img src="img/thin_bottom_arrow_333.png" alt="next" title="next" /></span>
+			</div>
+		</section>
         <ul>
           <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=BgPv2fqDUuk">Yves Bédard</a></li>
           <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=-pzv4nxj2b0">Sonia Tremblay</a></li>
           <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=WNhec5-wpVU">Karine Gibson</a></li>
         </ul>
       </div>
+	  <div class="clearfix"></div>
     </div>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/script.js"></script>
