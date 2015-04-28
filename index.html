@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>any list scroller demo - jQuery scrolling plugin by musings.it to scroll any kind of list with any content - musings.it web design and development</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/CSSreset.min.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="css/als_demo.css" />
+		<link rel="icon"          href="images/favicon.ico" type="image/x-icon" />
+    	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="jQuery plugin, jQuery scroller, list jQuery, jQuery lists, css3, html5, jQuery" />
+    	<meta name="description" content="any list scroller demo - jQuery scrolling plugin by musings.it to scroll any kind of list with any content - musings.it web design and development - Bergamo Italy" /> 	
+		<meta name="author" content="Federica Sibella - musings.it" />
+		<meta name="geo.placename" content="via Generale Alberico Albricci 1, 24128 Bergamo, Italy">
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.als-1.7.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				$("#lista1").als({
+					visible_items: 4,
+					scrolling_items: 2,
+					orientation: "horizontal",
+					circular: "yes",
+					autoscroll: "no",
+					interval: 5000,
+					speed: 500,
+					easing: "linear",
+					direction: "right",
+					start_from: 0
+				});
+				
+				$("#lista2").als({
+					visible_items: 3,
+					scrolling_items: 1,
+					orientation: "vertical",
+					circular: "yes",
+					autoscroll: "no",
+					start_from: 0
+				});
+				
+				//logo hover
+				$("#logo_img").hover(function()
+				{
+					$(this).attr("src","images/als_logo_hover212x110.png");
+				},function()
+				{
+					$(this).attr("src","images/als_logo212x110.png");
+				});
+				
+				//logo click
+				$("#logo_img").click(function()
+				{
+					location.href = "http://als.musings.it/index.php";
+				});
+				
+				$("a[href^='http://']").attr("target","_blank");
+				$("a[href^='http://als']").attr("target","_self");
+			});
+		</script>
+	</head>
+	<body>
+		<section id="content">
+			<div id="lista2" class="als-container">
+				<span class="als-prev"><img src="images/thin_top_arrow_333.png" alt="prev" title="previous" /></span>
+				<div class="als-viewport">
+					<div class="als-wrapper">
+						<div class="als-item"><img src="images/temoin_preview_1.jpg" alt="calculator" title="calculator" />calculator</div>
+						<div class="als-item"><img src="images/temoin_preview_2.jpg" alt="light bulb" title="light bulb" />light bulb</div>
+						<div class="als-item"><img src="images/temoin_preview_3.jpg" alt="card" title="card" />card</div>
+						<div class="als-item"><img src="images/temoin_preview_1.jpg" alt="chess" title="chess" />chess</div>
+						<div class="als-item"><img src="images/temoin_preview_2.jpg" alt="alarm clock" title="alarm clock" />alarm clock</div>
+						<div class="als-item"><img src="images/temoin_preview_3.jpg" alt="scissors" title="scissors" />scissors</div>
+					</div>
+				</div>
+				<span class="als-next"><img src="images/thin_bottom_arrow_333.png" alt="next" title="next" /></span>
+			</div>
+		</section>
+	</body>
+</html>
