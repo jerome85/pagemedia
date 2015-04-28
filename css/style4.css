@@ -1,14 +1,14 @@
 .tabs {
     position: relative;
-	margin: 40px auto;
-	width: 750px;
+	/* margin: 40px auto; */
+	width: 100%;
 }
 
 .tabs input {
 	position: absolute;
 	z-index: 1000;
-	width: 120px;
-	height: 40px;
+	width: 450px;
+	height: 450px;
 	left: 0px;
 	top: 0px;
 	opacity: 0;
@@ -36,11 +36,11 @@
 	background: linear-gradient(top, #5ba4a4 0%,#4e8c8a 100%);
 	font-size: 15px;
 	line-height: 40px;
-	height: 40px;
+	height: 450px;
 	position: relative;
 	padding: 0 20px;
 	display: block;
-	width: 80px;
+	width: 450px;
 	color: #385c5b;
 	letter-spacing: 1px;
 	text-transform: uppercase;
