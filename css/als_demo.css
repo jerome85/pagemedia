@@ -21,6 +21,7 @@
 .als-wrapper {
 	position: relative;
 	list-style: none;
+	margin-top: -60%;
 }
 
 .als-item {
@@ -48,8 +49,8 @@
 
 #lista2 .als-item {
 	margin: 0px 0px;
-	min-height: 350px;
-	min-width: 350px;
+	min-height: 450px;
+	min-width: 450px;
 }
 
 #lista2 .als-item img {
@@ -57,23 +58,23 @@
 	display: block;
 	vertical-align: middle;
 	margin-bottom: 0px;
-	width: 350px;
+	width: 450px;
 }
 
 #lista2 .als-prev, #lista2 .als-next {
-	left: 14.5%;
+	left: 19%;
 	width: 22px;
 	height: 15px;
 	z-index: 500;
 }
 
 #lista2 .als-prev {
-	top: 28%;
+	top: 8%;
 }
 
 #lista2 .als-next {
 	bottom: 0px;
-	top: 70%;
+	top: 51%;
 }
 
 #lista2 .als-item {

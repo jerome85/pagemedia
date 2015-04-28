@@ -1,6 +1,7 @@
 body {
 	display: table;
 	width: 100%;
+	overflow: hidden;
 }
 
 body>.row{
@@ -11,7 +12,7 @@ body>.row{
 
 body>.row>[class*="col-"] {
   display: table-cell;
-  float: none;
+  /* float: none; */
 }
 
 .logo{
