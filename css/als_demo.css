@@ -15,7 +15,7 @@
 .als-viewport {
 	position: relative;
 	overflow: hidden;
-	margin: 0px 0px;
+	margin: 0px 0px 0px -15px;
 }
 
 .als-wrapper {
@@ -57,12 +57,11 @@
 	display: block;
 	vertical-align: middle;
 	margin-bottom: 0px;
-	min-width: 100%;
-	max-width: 350px;
+	width: 350px;
 }
 
 #lista2 .als-prev, #lista2 .als-next {
-	left: 15.5%;
+	left: 14.5%;
 	width: 22px;
 	height: 15px;
 	z-index: 500;
