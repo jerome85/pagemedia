@@ -47,9 +47,24 @@
       </div>
       <div class="col-md-8" style="background-color: #d7083b;"></div>
     </div>
-	
+
+    <a href="#?w=0" rel="popup_name" class="poplight">En savoir plus</a>
+    <div id="popup_name" class="popup_block">
+      <h2>Developpez.com</h2>
+      <p>Soh Tanaka est traduit sur developpez.com.</p>
+    </div>
+
+
+
+
+
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
   </body>
 </html>
