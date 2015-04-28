@@ -66,6 +66,17 @@
 	width: 22px;
 	height: 15px;
 	z-index: 500;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+#lista2 .als-prev:hover, #lista2 .als-next:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
 }
 
 #lista2 .als-prev {

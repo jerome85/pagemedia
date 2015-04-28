@@ -68,7 +68,7 @@
           <div class="col-lg-1 col-md-2 col-sm-1 col-xs-2"><a href="https://www.youtube.com/user/SPGQinformation" target="blank"><img src="img/youtube.png"></a></div>
         </div>
       </div>
-      <div class="col-md-8" style="background-color: #d7083b;">
+      <div class="col-md-4" style="background-color: #d7083b;">
 		<section id="content">
 			<div id="lista2" class="als-container">
 				<span class="als-prev"><img src="img/thin_top_arrow_333.png" alt="prev" title="previous" /></span>
@@ -85,6 +85,8 @@
 				<span class="als-next"><img src="img/thin_bottom_arrow_333.png" alt="next" title="next" /></span>
 			</div>
 		</section>
+	  </div>
+	  <div class="col-md-4" style="background-color: #d7083b;">
         <ul>
           <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=BgPv2fqDUuk">Yves Bédard</a></li>
           <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=-pzv4nxj2b0">Sonia Tremblay</a></li>
