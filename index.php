@@ -40,10 +40,10 @@
           <div class="col-md-6"><b>SUIVEZ-NOUS</b></div>
         </div>
         <div class="row" id="suiveznous">
-          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/facebook.png"></div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/twitter.png"></div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/google.png"></div>
-          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2"><img src="img/youtube.png"></div>
+          <div class="col-lg-1 col-md-2 col-sm-1 col-xs-2"><a href="https://www.facebook.com/lespgq" target="blank"><img src="img/facebook.png"></a></div>
+          <div class="col-lg-1 col-md-2 col-sm-1 col-xs-2"><a href="https://twitter.com/spgq" target="blank"><img src="img/twitter.png"></a></div>
+          <div class="col-lg-1 col-md-2 col-sm-1 col-xs-2"><a href="https://plus.google.com/+SpgqQcCaquebec/posts" target="blank"><img src="img/google.png"></a></div>
+          <div class="col-lg-1 col-md-2 col-sm-1 col-xs-2"><a href="https://www.youtube.com/user/SPGQinformation" target="blank"><img src="img/youtube.png"></a></div>
         </div>
       </div>
       <div class="col-md-8" style="background-color: #d7083b;">
@@ -54,12 +54,6 @@
         </ul>
       </div>
     </div>
-
-
-
-
-
-
 
 
 
