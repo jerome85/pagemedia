@@ -27,7 +27,28 @@ p{
 	width:150%;
 }
 
+/*******************************************************/
+/**
+ * list styles
+ */
+ 
+ul.description-poste {
+	color:white;
+}
 
+ul.description-poste li{
+	list-style-type: none;
+}
+
+.description-poste li h1 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.description-poste li .poste {
+	font-size: 15px;
+	font-weight: 600;
+}
 
 /*******************************************************/
 
