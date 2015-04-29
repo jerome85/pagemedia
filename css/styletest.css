@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+li{
+	list-style-type: none;
+}
+
 .grayscale
 {
         filter: grayscale(1);
