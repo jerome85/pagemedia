@@ -96,9 +96,9 @@
 	  <div class="clearfix"></div>
     </div>
 
-    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
-    <!--<script src="magnific-popup/jquery.magnific-popup.min.js"></script>-->
-    <!--<script src="js/script.js"></script>-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
