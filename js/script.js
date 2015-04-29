@@ -1,3 +1,5 @@
+var compteur = 1;
+
 $(document).ready(function() {
 	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
@@ -7,5 +9,19 @@ $(document).ready(function() {
 		preloader: false,
 
 		fixedContentPos: false
+	});
+
+	$('#prev').click(function(){
+		compteur = ((compteur==0)?5:compteur-1);
+		$('.clear').toggleClass('clear grayscale');
+		$('.grayscale').toggleClass('grayscale grayscale');
+		$('#'+compteur).toggleClass('grayscale clear');
+	});
+
+	$('#next').click(function(){
+		compteur = ((compteur==5)?0:compteur+1);
+		$('.clear').toggleClass('clear grayscale');
+		$('.grayscale').toggleClass('grayscale grayscale');
+		$('#'+compteur).toggleClass('grayscale clear');
 	});
 });
