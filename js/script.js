@@ -12,6 +12,7 @@ $(document).ready(function() {
 	});
 
 	$('#prev').click(function(){
+		var ancien = compteur;
 		compteur = ((compteur==0)?5:compteur-1);
 
 		var moins = ((compteur==0)?5:compteur-1);
@@ -22,9 +23,16 @@ $(document).ready(function() {
 		$('#'+compteur).toggleClass('grayscale clear');
 		$('.'+(moins)).attr('href', '#');
 		$('.'+(plus)).attr('href', '#');
+
+		ancien = ((ancien > 2 )?ancien-3:ancien);
+		var compteurtemp = ((compteur > 2 )?compteur-3:compteur);
+
+		$('#li'+ancien).hide();
+		$('#li'+compteurtemp).show();
 	});
 
 	$('#next').click(function(){
+		var ancien = compteur;
 		compteur = ((compteur==5)?0:compteur+1);
 
 		var moins = ((compteur==0)?5:compteur-1);
@@ -35,5 +43,11 @@ $(document).ready(function() {
 		$('#'+compteur).toggleClass('grayscale clear');
 		$('.'+(moins)).attr('href', '#').removeClass('popup-youtube');
 		$('.'+(plus)).attr('href', '#').removeClass('popup-youtube');
+
+		ancien = ((ancien > 2 )?ancien-3:ancien);
+		var compteurtemp = ((compteur > 2 )?compteur-3:compteur);
+
+		$('#li'+ancien).hide();
+		$('#li'+compteurtemp).show();
 	});
 });
