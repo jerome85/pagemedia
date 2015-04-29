@@ -16,7 +16,6 @@
     <![endif]-->
 	
 	<!-- Scroller styles -->
-	<link rel="stylesheet" type="text/css" media="screen" href="css/CSSreset.min.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/als_demo.css" />
 	
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
