@@ -21,7 +21,7 @@
 .als-wrapper {
 	position: relative;
 	list-style: none;
-	margin-top: -60%;
+	margin-top: -58%;
 }
 
 .als-item {
@@ -80,12 +80,12 @@
 }
 
 #lista2 .als-prev {
-	top: 8%;
+	top: 13%;
 }
 
 #lista2 .als-next {
 	bottom: 0px;
-	top: 51%;
+	top: 77%;
 }
 
 #lista2 .als-item {

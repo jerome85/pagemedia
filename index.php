@@ -24,11 +24,12 @@
 		$(document).ready(function() 
 		{
 			$("#lista2").als({
-				visible_items: 3,
+				visible_items: 2,
 				scrolling_items: 1,
 				orientation: "vertical",
 				circular: "yes",
 				autoscroll: "no",
+				easing: "swing",
 				start_from: 0
 			});
 			
