@@ -28,6 +28,10 @@ body {
         -o-filter: grayscale(0);
         -ms-filter: grayscale(0);
 }
+
+.col-md-8{
+	padding:0;
+}
 /*******************************************************/
 
 /**
