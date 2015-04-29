@@ -86,11 +86,26 @@
 			</div>
 		</section>
 	  </div>
-	  <div class="col-md-4" style="background-color: #d7083b;">
+	  <div class="col-md-4" style="background-color: #d7083b; color:white;">
         <ul>
-          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=BgPv2fqDUuk">Yves Bédard</a></li>
-          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=-pzv4nxj2b0">Sonia Tremblay</a></li>
-          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=WNhec5-wpVU">Karine Gibson</a></li>
+          <li>
+			<h1>Sonia Tremblay</h1>
+			<p>ARCHITECTE DES COMMUNICATIONS À LA CLIENTÈLE</p>
+			<p>Découvrez le quotidien de Sonia Tremblay, une architecte des communications à la clientèle qui simplifie nos vies administratives. </p>
+			<a class="popup-youtube btn btn-default" role="button" href="https://www.youtube.com/watch?v=-pzv4nxj2b0">JOUER LA VIDÉO</a>
+		  </li>
+          <li>
+			<h1>Karine Gibson</h1>
+			<p>SPÉCIALISTE EN BIOLOGIE JUDICIAIRE</p>
+			<p>Découvrez le quotidien de Karine Gibson, une spécialiste en biologie judiciaire qui met la science au service de la justice. </p>
+			<a class="popup-youtube btn btn-default" role="button" href="https://www.youtube.com/watch?v=WNhec5-wpVU">JOUER LA VIDÉO</a>
+		  </li>
+          <li>
+			<h1>Yves Bédard</h1>
+			<p>BIOLOGISTE AU MINISTÈRE DES TRANSPORTS</p>
+			<p>Découvrez le quotidien de Yves Bédard, un biologiste au ministère des transports, qui sécurise nos routes et préserve la faune du Québec. </p>
+			<a class="popup-youtube btn btn-default" role="button" href="https://www.youtube.com/watch?v=BgPv2fqDUuk">JOUER LA VIDÉO</a>
+		  </li>
         </ul>
       </div>
 	  <div class="clearfix"></div>
