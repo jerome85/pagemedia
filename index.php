@@ -74,12 +74,12 @@
 				<span class="als-prev"><img src="img/thin_top_arrow_333.png" alt="prev" title="previous" /></span>
 				<div class="als-viewport">
 					<div class="als-wrapper">
-						<div class="als-item"><img src="img/temoin_preview_1.jpg" alt="calculator" title="calculator" /></div>
-						<div class="als-item"><img src="img/temoin_preview_2.jpg" alt="light bulb" title="light bulb" /></div>
-						<div class="als-item"><img src="img/temoin_preview_3.jpg" alt="card" title="card" /></div>
-						<div class="als-item"><img src="img/temoin_preview_1.jpg" alt="chess" title="chess" /></div>
-						<div class="als-item"><img src="img/temoin_preview_2.jpg" alt="alarm clock" title="alarm clock" /></div>
-						<div class="als-item"><img src="img/temoin_preview_3.jpg" alt="scissors" title="scissors" /></div>
+						<div class="als-item als-item-1"><img src="img/temoin_preview_1.jpg" alt="calculator" title="calculator" /></div>
+						<div class="als-item als-item-2"><img src="img/temoin_preview_2.jpg" alt="light bulb" title="light bulb" /></div>
+						<div class="als-item als-item-3"><img src="img/temoin_preview_3.jpg" alt="card" title="card" /></div>
+						<div class="als-item als-item-1"><img src="img/temoin_preview_1.jpg" alt="chess" title="chess" /></div>
+						<div class="als-item als-item-2"><img src="img/temoin_preview_2.jpg" alt="alarm clock" title="alarm clock" /></div>
+						<div class="als-item als-item-3"><img src="img/temoin_preview_3.jpg" alt="scissors" title="scissors" /></div>
 					</div>
 				</div>
 				<span class="als-next"><img src="img/thin_bottom_arrow_333.png" alt="next" title="next" /></span>
@@ -114,6 +114,13 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/script.js"></script>
+	
+	<script>
+		var div.als-item = $( "div.als-item:last" );
+		var offset = div.als-item.offset();
+		div.als-item.html( "left: " + offset.left + ", top: " + offset.top );
+		console.log(div.als-item);
+	</script>
 
   </body>
 </html>
